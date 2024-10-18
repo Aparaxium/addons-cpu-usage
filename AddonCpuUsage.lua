@@ -12,9 +12,10 @@ local GameTooltip = GameTooltip
 --local debugmode = true
 local debugmode = false
 
-local GetAddOnInfo   		= C_AddOns and C_AddOns.GetAddOnInfo or GetAddOnInfo
-local GetNumAddOns   		= C_AddOns and C_AddOns.GetNumAddOns or GetNumAddOns
-local GetAddOnCPUUsage		= GetAddOnCPUUsage
+local GetAddOnInfo   = C_AddOns.GetAddOnInfo
+--local GetFramerate   = GetFramerate
+local GetNumAddOns   = C_AddOns.GetNumAddOns
+
 local UpdateAddOnCPUUsage	= UpdateAddOnCPUUsage
 
 local CPUResetUsage = ResetCPUUsage
